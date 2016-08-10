@@ -2,7 +2,7 @@ Package.describe({
   name: 'ksrv:autoform-dadataru',
   version: '0.0.1',
   summary: 'Autoform fields for dadata.ru suggestions',
-  git: '',
+  git: 'git@github.com:ksrv/autoform-dadataru.git',
   documentation: 'README.md'
 });
 
