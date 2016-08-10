@@ -1,0 +1,13 @@
+
+<template name="afDadataSuggestions_bootstrap3">
+    <input type="text" {{attsPlusFormControlClass}}/>
+</template>
+
+<template name="afDadataSuggestionsObject_bootstrap3">
+  <div {{dts}}>
+    <input type="text" {{atts}} />
+    {{#each dadataFields}}
+      <input type="hidden" {{this}}/>
+    {{/each}}
+  </div>
+</template>
